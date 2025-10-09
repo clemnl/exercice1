@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!-- Indique qu'on utilise du HTML -->
+
+<html lang="fr"> <!-- la racine du document, lang=fr pour le français -->
+    <head> <!-- Partie invisible : paramètres de la page -->
+        <meta charset="UTF-8"> <!-- Encodage des caractères (accents, symboles) -->
+        <title>Mon premier site !</title>
+    </head>
+
+    <body style="background-color : rgb(207, 225, 225)"> <!-- Partie visible : contenu affiché à l'écran -->
+
+        <h1>Capitaine Haddock </h1>
+
+        <h2>Le meilleur pote de Tintin</h2>
+
+        <ol> 
+		    <li> <a href="#presentation">Présentation</a> </li> 
+		    <li> <a href="#caractere">Les traits de caractère</a> </li>
+		    <li> <a href="#habits">Les vêtements et accessoires</a> </li>
+            <li> <a href="#photo">Photo</a> </li>
+	    </ol>
+
+        <h3 id="presentation">Présentation</h3>
+
+
+        <p>Archibald Haddock, généralement appelé le <strong>capitaine Haddock</strong>, est un personnage de fiction des <em>Aventures de Tintin</em> de Hergé. Apparu tardivement dans la série, dans Le Crabe aux pinces d'or en 1941, il en devient un des personnages principaux et le meilleur ami de Tintin, qu'il accompagne ensuite dans chacune de ses aventures.
+        </p>
+        <p>Haddock est l'un des rares personnages de la série qui soit doté d'un passé, et celui-ci est très fortement valorisé, dans un épisode à forte dimension historique. Le diptyque formé par <i>Le Secret de La Licorne et Le Trésor de Rackham le Rouge</i> le mène sur les traces de son ancêtre, le chevalier François de Hadoque, et offre à la « famille de papier » qui se met en place autour de Tintin un nouveau lieu d'attache, le château de Moulinsart, ce qui confère au capitaine un double rôle de fédérateur et de catalyseur des Aventures. Par son visage expressif et tourmenté, Haddock apparaît comme le « négatif » du héros trop lisse incarné par Tintin. Il apporte une certaine humanité dans la série, à laquelle le lecteur s'identifie plus facilement : dans un sondage effectué en 1996 auprès des lecteurs de la série, le capitaine est désigné comme leur personnage préféré.</p>
+
+        <p>Pour en savoir plus : <a href="https://fr.wikipedia.org/wiki/Capitaine_Haddock">Wikipédia Capitaine Haddock</a></p>
+        
+        <br>
+        <hr>
+        <br>
+
+        <h3 id="photo">Photo</h3>
+        <img src="img/ch1.png" alt="Capitaine Haddock">
+
+        <br>
+
+        <input type="button" class="btn btnGo"value="En savoir plus sur Tintin">
+        <input type="button" class="btn btnRegles" value="En savoir plus sur Milou">
+
+        <br>
+        
+
+        <h3 id="caractere">Ses traits de caractère</h3>
+        <ul>
+            <li>Raleur</li>
+            <li>Maladroit</li>
+            <li>Intrépide</li>
+        </ul>
+        
+        <h3 id="habits">Ses vêtements et accessoires</h3>
+         <ol>
+            <li>Pipe</li>
+            <li>Casquette de capitaine</li>
+            <li>Col roulé bleu</li>
+        </ol>
+
+        
+        <br>
+
+        <form action="" method="get" class="form-example">
+            <div class="form-example">
+                <label for="name">Entrez votre nom: </label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-example">
+                <label for="email">Entrez votre mail: </label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            <div class="form-example">
+                <input type="submit" value="Inscrivez vous pour plus d'infos sur Haddock !" />
+            </div>
+        </form>
+
+        <br>
+        <br>
+
+    </body>
+
+
+</html>
