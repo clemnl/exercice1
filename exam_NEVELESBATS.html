@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta
+			name="description"
+			content="Page créée pour l'examen pratique de programmation web."
+		/>
+	<meta name="author" content="Clémence Neve-Lesbats" />
+    <title>Cuisine & Saveurs - Site vitrine</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+
+    <header>
+        <h3 id="logo">CUISINE <br/> <span>& SAVEURS</span></h3>
+        <nav>
+            <ul class="liste_nav">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#recettes">Recettes</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="gauche">
+            <section id="accueil">
+                <div class="accueil_texte">
+                    <h1>Bienvenue sur Cuisine & Saveurs</h1>
+                    <p>Un site dédié à la <strong>cuisine maison</strong>, aux recettes simples et au plaisir de partager.</p>
+                    <a class="bouton_recettes" href="#recettes">Découvrir nos recettes</a>                
+                </div>
+                <div class="accueil_image">
+                    <img src="recette.jpg" alt="Photo de cuisine (image d'illustration)">
+                </div>
+            </section>
+
+            <section id="recettes">
+                <h2>Nos recettes</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Plats traditionnels</h3>
+                        <p>Cuisine familiale et recettes classiques</p>
+                    </div>
+                    <div class="card">
+                        <h3>Cuisine rapide</h3>
+                        <p>Des idées simples pour le quotidien</p>
+                    </div>
+                    <div class="card">
+                        <h3>Desserts maison</h3>
+                        <p>Gâteaux, tartes et douceurs</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu">
+                <h2>Exemple de menu</h2>
+                <p>Un aperçu (fictif) de nos propositions du jour :</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Plat</th>
+                            <th>Description</th>
+                            <th>Prix</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Velouté de saison</td>
+                            <td>Crème légère, croûtons, herbes</td>
+                            <td>6 &euro;</td>
+                        </tr>
+                        <tr>
+                            <td>Poulet rôti</td>
+                            <td>Pommes de terre & jus maison</td>
+                            <td>14 &euro;</td>
+                        </tr>
+                        <tr>
+                            <td>Tarte aux pommes</td>
+                            <td>Servie tiède, touche de canelle</td>
+                            <td>7 &euro;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <div id="droite">
+            <section>
+                <h2>A propos</h2>
+                <p>Cuisine & Saveurs est un projet fictif créé pour s'entrainer à la création de pages web en <strong>HTML</strong> et CSS.</p>
+                <ul>
+                    <li>Produits simples</li>
+                    <li>Recettes accessibles</li>
+                    <li>Passion de la cuisine</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Inspiration</h2>
+                <blockquote>
+                    « La cuisine, c'est le coeur à la maison »
+                </blockquote>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <form>
+                    <label for="value">Nom :</label><br/>
+					<input type="text" id="value" name="name" placeholder="Votre nom"/>
+					<br/><br/>
+
+					<label for="email">Email :</label><br />
+					<input type="email" id="email" name="email" placeholder="exemple@mail.com"/>
+					<br/><br/>
+
+					<label for="message">Message :</label><br />
+					<textarea id="message" name="message" rows="4" placeholder="Votre message..."></textarea>
+					<br/><br/>
+					<input type="submit" value="Envoyer">
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&#xA9; 2025 - Cuisine & Saveurs | <a class="mdn" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements">Documentation MDN</a></p>
+    </footer>
+</body>

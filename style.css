@@ -1,0 +1,181 @@
+body {
+    background-color: #FFF8F0;
+    font-family: Arial, sans-serif;
+    color: #3A2F25;
+    margin: 0;
+    font-size: 13px;
+}
+
+header {
+    background-color: #F3C892;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #C97B3A;
+    height: 50px;
+}
+
+#logo {
+    margin: 10px;
+}
+
+span {
+    color: #2F6F4E;
+}
+
+nav {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 4px;
+
+}
+
+main {
+    display: flex;
+    margin: 16px;
+    height: 90%;
+}
+
+#gauche {
+    width: 60%;
+}
+
+#droite {
+    width: 40%;
+}
+
+section {
+    background-color: #FFFFFF;
+    padding: 14px;
+    margin: 7px;
+    border: 1px #F0D2B0 solid;
+    border-radius: 15px;
+}
+
+li a {
+    text-decoration: none;
+    background-color: #FFF1DD;
+    color: #3A2F25;
+    accent-color: #C97B3A;
+    margin: 6px, 10px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+li a:hover {
+    background-color: #C97B3A;
+    color: #FFFFFF;
+}
+
+.bouton_recettes {
+    color: #2F6F4E;
+    border: 1px solid #2F6F4E;
+    background-color: white;
+    accent-color: #C97B3A;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.bouton_recettes:hover {
+    background-color: #2F6F4E;
+    color: white;
+}
+
+#accueil {
+    display: flex;
+}
+
+
+.accueil_texte {
+    width: 40%;
+    margin-right: 10px;
+}
+
+.accueil_image {
+    width: 60%;
+}
+
+
+img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px, solid, #C97B3A;
+    height: 150px;
+}
+
+.liste_nav li {
+    list-style-type: none;
+}
+
+.liste_nav {
+    display: flex;
+    gap: 7px;
+}
+
+table {
+    width: 100%;
+}
+
+table, td, th {
+    border: 1px solid #E6B98C;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+th {
+    padding: 5px;
+    background-color: #F3C892;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    border: 1px solid #C97B3A;
+    border-radius: 8px;
+    background-color: #f9ecdc;
+    padding: 10px 20px;
+}
+
+
+input, textarea {
+    border: 1px solid #E6B98C;
+    border-radius: 8px;
+    width: 100%;
+    padding: 5px;
+}
+
+form {
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 10px 0 20px 10px;
+}
+
+.mdn {
+    color:#2F6F4E;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
